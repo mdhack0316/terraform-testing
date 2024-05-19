@@ -4,8 +4,8 @@ resource "google_compute_instance" "example" {
   zone         = "us-central1-a"
 
   labels = {
-    environment = "dev"
-    owner       = "user"
+    environment = "production"
+#    owner       = "user"
   }
 
   boot_disk {
